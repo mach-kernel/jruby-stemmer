@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jruby-stemmer/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "jruby-stemmer"
+  gem.name          = "jruby-stemmer-other"
   gem.version       = JRuby::Stemmer::VERSION
   gem.authors       = ["Caius Durling"]
   gem.email         = ["dev@caius.name"]
   gem.description   = %q{Native java implementation of a string stemming algorithm. JRuby replacement for `fast-stemmer` gem under MRI.}
   gem.summary       = %q{Fast string stemming in JRuby}
-  gem.homepage      = "https://github.com/caius/jruby-stemmer"
+  gem.homepage      = "https://github.com/mach-kernel/jruby-stemmer"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

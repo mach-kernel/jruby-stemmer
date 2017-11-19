@@ -1,4 +1,11 @@
+### Oh, fork!
+
+The original is [located here](https://github.com/caius/jruby-stemmer), I was just impatient and needed to put this up on a mirror to unblock some other work. 
+
+That being said, if you have a JRuby import issue, just use this fork.
+
 # JRuby::Stemmer
+
 
 Easily stem words in ruby, using a native java implementation of the porter stemming algorithm for speed. (Java equivalent of the fast-stemmer gem for MRI.)
 
